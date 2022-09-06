@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Full Test",
+    "description": "Descrição...",
+    "images": []
+  },
+  {
+    "title": "Quem somos",
+    "body": "<p>A FullTest, empresa genuinamente brasileira, surge no mercado como nova op&ccedil;&atilde;o na &aacute;rea de pesquisa e inova&ccedil;&atilde;o tecnol&oacute;gica a servi&ccedil;o da ci&ecirc;ncia no desenvolvimento e fabrica&ccedil;&atilde;o de m&aacute;quinas, equipamentos e instrumentos cient&iacute;ficos de alta precis&atilde;o para ensaios laboratoriais em materiais nos mais diversos segmentos. Com know-how pr&oacute;prio no desenvolvimento de novas tecnologias em equipamentos para ensaio, posicionamos nossos produtos em destaque frente aos equipamentos e produtos similares no mercado nacional e internacional.</p><p>Com capacidade intelectual conquistada atrav&eacute;s de investimentos em pesquisa e desenvolvimento, hoje possu&iacute;mos lastro t&eacute;cnico que nos garante compet&ecirc;ncia e efici&ecirc;ncia para atender o mercado de usu&aacute;rios com as mais altas exig&ecirc;ncias em tecnologias voltadas para ensaio de materiais.</p><p>Detentora de excel&ecirc;ncia em produ&ccedil;&atilde;o de m&aacute;quinas, integrado ao conhecimento acad&ecirc;mico em ensaios laboratoriais, estamos estruturados para atender empresas de Petr&oacute;leo, G&aacute;s e Energia, Mineradoras, Construtoras, Ind&uacute;strias, institui&ccedil;&otilde;es de ensino t&eacute;cnico, Universidades, Institutos de Pesquisas e outras institui&ccedil;&otilde;es, no crescente mercado nacional e internacional.</p>",
+    "image": {
+      "file": "quemsomos.jpg",
+      "width": "900",
+      "height": "585"
+    }
+  },
+  {
+    "title": "O que fazemos",
+    "body": "<p>Especializada em fabrica&ccedil;&atilde;o de M&aacute;quinas, aparelhos, instrumentos, dispositivos e acess&oacute;rios para os ensaios:</p><ul><li>Triaxiais axissim&eacute;tricos est&aacute;ticos e din&acirc;micos.</li><li>Cisalhamento direto, Adensamento, HCT, CRD, WRC, CBR, Marshall.</li><li>Permeabilidade, flu&ecirc;ncia, condutividade hidr&aacute;ulica e fraturamento &aacute;cido.</li><li>Elasticidade, tenacidade, resili&ecirc;ncia, Poisson.</li><li>Compress&atilde;o axial, compress&atilde;o diametral, flex&atilde;o, dobramento, cisalhamento, dureza.</li><li>C&iacute;clicos, Din&acirc;micos e de fadiga.</li><li>Tra&ccedil;&atilde;o, arrancamento, endenta&ccedil;&atilde;o, alongamento, fendilhamento.</li><li>Ensaios especiais e Outros</li><li>Projetos especiais<br />Desenvolvimento de projetos especiais personalizados para atender aos mais<br />diversos tipos de ensaios, focando sempre no uso de tecnologia de ponta em toda<br />linha de produtos.</li><li>Retrofit<br />Execu&ccedil;&atilde;o de servi&ccedil;os de retrofittig em toda linha de equipamentos de ensaios. <br />Recupera&ccedil;&atilde;o de sistemas, implanta&ccedil;&atilde;o de instrumenta&ccedil;&atilde;o modernizada e adequa&ccedil;&atilde;o de sistemas ultrapassados para o que h&aacute; de mais moderno em equipamentos de ensaio, com baixo custo.</li><li>Software<br />Desenvolvimento de software customizado para atender as mais diversas aplica&ccedil;&otilde;es em equipamentos de ensaio de nossa fabrica&ccedil;&atilde;o. Sistemas inteligentes de armazenamento de dados, grava&ccedil;&atilde;o de resultados, gera&ccedil;&atilde;o de relat&oacute;rio completo e visualiza&ccedil;&atilde;o gr&aacute;fica on-line com inser&ccedil;&atilde;o de formulas matem&aacute;ticas para analises. Desenvolvimento de ferramentas auxiliares gratuitas, manuten&ccedil;&atilde;o com aprimoramentos constantes.</li></ul>",
+    "image": {
+      "file": "oquefazemos.jpg",
+      "width": "900",
+      "height": "585"
+    }
+  },
+  {
+    "title": "Contato",
+    "body": "<p>...</p>",
+    "image": {
+      "file": "contato.jpg",
+      "width": "900",
+      "height": "585"
+    }
+  }
+]

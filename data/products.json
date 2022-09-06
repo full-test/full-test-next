@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Triaxial",
+    "body": "<p>Equipamento automático para Ensaio Triaxial Axissimétrico Estático do tipo UU, UUsat, CIU, CIUsat, CD e CDsat, em corpo de prova de solos diversos, sem o uso de ar comprimido e células de interface ar/água, composto por unidades hidráulicas interdependentes servo acionadas, e prensa para controle de deslocamento servo acionada.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Atuador Hidráulico",
+    "body": "<p>Atuador hidráulico servo-acionado FullTest modelo FT17001, compacto para uso em bancada, posição horizontal e vertical. Indicador digital de pressão e volume em display de cristal líquido. Teclado personalizado com função própria e sistema de comunicação por rede Ethernet local.</p>"
+  },
+  {
+    "id": 3,
+    "title": "Câmara Triaxial",
+    "body": "<p>Célula cilíndrica para ensaios triaxiais axissimétricos em solos, bases em alumínio com tratamento de superfície, tubo polímero de alta resistência a pressão de 3.2 MPa. Haste maciça de aço nobre, sistema de eliminação de atrito da haste para aplicação de força axial, quadro de reação fixo por tirantes, sistema de fechamento rápido de fácil manuseio.</p>"
+  },
+  {
+    "id": 4,
+    "title": "Adensamento",
+    "body": "<p>Equipamento Servo Controlado Para Ensaio de Adensamento em Solos, em conformidade com Normas Técnicas inerentes ao ensaio, portátil de bancada, sem uso de pesos cambiáveis manuais, totalmente automático com sistema exclusivo de detecção de estabilização para uso do equipamento 24h/dia por vários dias sem interferência do operador.</p>"
+  },
+  {
+    "id": 5,
+    "title": "Cisalhamento",
+    "body": "<p>Equipamento Servo Controlado para ensaio de cisalhamento direto em solos automático. Capacidade de aplicação de força axial instantânea e da força cisalhante até 20,0 kN, estrutura compacta para operação em bancada, controle axial da carga de adensamento por sistema servo acionado, velocidade cisalhante de 0.00001 mm/min a 5 mm/min; Interface Homem Máquina com teclado membrana para operação, leitura e parametrização de sistema.</p>"
+  },
+  {
+    "id": 6,
+    "title": "Adensamento manual",
+    "body": "<p>Prensa para ensaios edométricos  (adensamento manual)  relação 1:10 cap. De carregamento de até 5kN. Jogo de peso padrão 50kg. Jogo de células tipo urtigão e adaptadores para corpos de provas de 20cm², 40cm², 50cm²  e 100cm².<br />Estrutura em aço</p>"
+  },
+  {
+    "id": 7,
+    "title": "Adensamento manual",
+    "body": "<p>Prensa servo hidráulica de bancada para ensaios Point Load Test<br />Capacidade de aplicação de força de até 200 kN.<br />Estrutura em aço de alta resistência, acionamento por bomba hidráulica</p>"
+  }
+]

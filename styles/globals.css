@@ -1,26 +1,329 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --gray: #4b4b4d;
+  --gray-light: #e6e6e6;
+  --gray-hover: #394246;
+  --light: #fff;
+  --green: #a7ce45;
+  --green-hover: #80a12b;
+  --red: #b03336;
+  --red-hover: #941c1e;
 }
 
-a {
-  color: inherit;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+}
+@media screen and (max-width: 400px) {
+  h1,
+  h2 {
+    font-size: 2.3em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 2.3em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  h1,
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 993px) {
+  h1,
+  h2 {
+    font-size: 3.5em;
+  }
+  h3 {
+    font-size: 3em;
+  }
+}
+.bg-dark {
+  background-color: var(--gray) !important;
+  box-shadow: 2px 2px 5px #323233;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand img {
+  height: 50px !important;
+}
+.form-group {
+  padding: 0px 0px 10px 0px;
+}
+.btn-primary {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--red-hover);
+  border-color: var(--red-hover);
+}
+.btn-light {
+  background-color: var(--green);
+  border-color: var(--green);
+  color: #fff !important;
+}
+.btn-light:hover,
+.btn-light:focus {
+  background-color: var(--green-hover);
+  border-color: var(--green-hover);
+  color: #fff !important;
+}
+.btn-light a,
+.btn-light a:hover,
+.btn-light a:focus {
+  color: #fff !important;
+  text-decoration: none;
+}
+.breadcrumb a,
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  color: var(--gray);
+  text-decoration: none;
+}
+.btn-link {
+  color: var(--gray);
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: var(--gray-hover);
+  text-decoration: none;
+}
+.header-background {
+  background-image: url("/images/bg-header.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-background img {
+  width: auto;
+  height: 230px;
+}
+.background-gray {
+  background-image: url("/images/bg-gray.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.ads img {
+  width: auto;
+  height: 250px;
+}
+.ads h3 {
+  padding: 0px 0px 15px 0px !important;
+}
+.background-green {
+  background-image: url("/images/bg-green.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--gray) !important;
+}
+.box-light,
+.box-gray,
+.box-green {
+  padding-bottom: 30px;
+}
+.box-green a {
+  color: #fff;
+  text-decoration: none;
+}
+.box-green a:hover {
+  color: #fff;
+}
+.box-light {
+  background-color: var(--light);
+  color: var(--gray);
+}
+.box-light a {
+  color: var(--gray);
+  text-decoration: none;
+}
+.box-light a:hover {
+  color: var(--gray-hover);
+}
+.box-light h1,
+.box-light h2,
+.box-light h3,
+.box-light h4,
+.box-light h5,
+.box-light h6,
+.box-gray h1,
+.box-gray h2,
+.box-gray h3,
+.box-gray h4,
+.box-gray h5,
+.box-gray h6,
+.box-green h1,
+.box-green h2,
+.box-green h3,
+.box-green h4,
+.box-green h5,
+.box-green h6 {
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+.box-light h1,
+.box-light h2,
+.box-light h3,
+.box-light h4,
+.box-light h5,
+.box-light h6 {
+  color: var(--gray) !important;
+}
+.box-gray {
+  background-color: var(--gray);
+  color: var(--light);
+}
+.box-gray h1,
+.box-gray h2,
+.box-gray h3,
+.box-gray h4,
+.box-gray h5,
+.box-gray h6 {
+  color: var(--light) !important;
+}
+.box-green {
+  background-color: var(--green);
+  color: var(--light);
+}
+.box-green h1,
+.box-green h2,
+.box-green h3,
+.box-green h4,
+.box-green h5,
+.box-green h6 {
+  color: var(--light) !important;
+}
+.copyright {
+  text-align: center;
+  background-color: var(--gray);
+  color: var(--light);
+}
+.copyright p {
+  margin: 20px 0px 20px 0px;
+  font-size: 0.8em;
+}
+.large-height {
+  min-height: 800px;
+}
+.product {
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.product .details {
+  font-size: 1.1em;
+}
+.card-body {
+  font-size: 0.9em;
+}
+#produtos,
+#quemsomos,
+#oquefazemos,
+#contato {
+  padding: 100px 0px 100px 0px;
+}
+#produtos h2,
+#quemsomos h2,
+#oquefazemos h2,
+#contato h2 {
+  padding-bottom: 20px;
+}
+#produtos,
+#produtos h1,
+#produtos h2,
+#produtos h3,
+#produtos h4,
+#produtos h5,
+#produtos h6,
+#oquefazemos,
+#oquefazemos h1,
+#oquefazemos h2,
+#oquefazemos h3,
+#oquefazemos h4,
+#oquefazemos h5,
+#oquefazemos h6 {
+  background-color: var(--gray-light);
+  color: var(--gray) !important;
+}
+#contato,
+#contato h1,
+#contato h2,
+#contato h3,
+#contato h4,
+#contato h5,
+#contato h6,
+#quemsomos,
+#quemsomos h1,
+#quemsomos h2,
+#quemsomos h3,
+#quemsomos h4,
+#quemsomos h5,
+#quemsomos h6 {
+  background-color: var(--gray);
+  color: var(--gray-light) !important;
+}
+.whatsapp {
+  position: fixed;
+  text-transform: uppercase;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5000;
+}
+.whatsapp .btn-primary,
+.whatsapp .btn-primary:hover,
+.whatsapp .btn-primary:focus {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.terms {
+  position: sticky;
+  bottom: 0%;
+  background-color: var(--gray);
+  color: var(--light);
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.terms a {
+  color: #fff;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.terms .btn-outline-success {
+  background-color: var(--green);
+  border-color: var(--gray-hover);
+  color: var(--gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.terms .btn-outline-success:hover {
+  background-color: var(--gray-hover);
+  border-color: var(--gray-hover);
+  color: var(--light);
 }
